@@ -9,3 +9,7 @@ summary {
 summary:focus {
 outline:0;
 }
+
+html {
+  overflow-y: scroll;
+}
