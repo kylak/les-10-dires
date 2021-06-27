@@ -13,3 +13,13 @@ outline:0;
 html {
   overflow-y: scroll;
 }
+
+@font-face {
+ font-family: "FreerFont";
+ src: url("/Users/gustavberloty/Library/Fonts/FreerFont-Smooth.ttf") format("truetype");
+}
+
+#grec {
+font-family: FreerFont;
+font-size:0.6em;
+}
