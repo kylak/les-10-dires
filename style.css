@@ -19,7 +19,12 @@ html {
  src: url("https://github.com/kylak/FreerFont/blob/7ca62f120dbf8f2a6d25d3910ad34893e13328a1/FreerFont-Smooth.ttf?raw=true") format("truetype");
 }
 
+@font-face {
+ font-family: "KoineGreek";
+ src: url("https://greekcntr.org/downloads/KoineGreek.ttf") format("truetype");
+}
+
 #grec {
-font-family: FreerFont;
-font-size:0.6em;
+font-family: KoineGreek, FreerFont;
+font-size: 0.8em;
 }
