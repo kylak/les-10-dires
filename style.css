@@ -1,4 +1,11 @@
 ol li ol li {
 font-weight: bold;
+}
 
+summary {
+  outline: none;
+}
+
+summary:focus {
+outline:0;
 }
