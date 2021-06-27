@@ -16,7 +16,7 @@ html {
 
 @font-face {
  font-family: "FreerFont";
- src: url("/Users/gustavberloty/Library/Fonts/FreerFont-Smooth.ttf") format("truetype");
+ src: url("https://github.com/kylak/FreerFont/blob/7ca62f120dbf8f2a6d25d3910ad34893e13328a1/FreerFont-Smooth.ttf?raw=true") format("truetype");
 }
 
 #grec {
