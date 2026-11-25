@@ -28,3 +28,30 @@ html {
 font-family: KoineGreek, FreerFont;
 font-size: 0.9em;
 }
+
+/* Numéros de verset du décalogue : masqués par défaut, affichés avec la touche V */
+.verse {
+  display: none;
+  font-family: inherit;
+  font-size: 0.72em;
+  font-weight: normal;
+  font-style: normal;
+  color: #8a8a8a;
+  margin: 0 0.15em;
+  vertical-align: super;
+  unicode-bidi: isolate;
+  cursor: help;
+}
+
+body.show-verses .verse {
+  display: inline;
+}
+
+kbd {
+  font-family: inherit;
+  font-size: 0.95em;
+  padding: 0 0.3em;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  background-color: #f4f4f4;
+}
