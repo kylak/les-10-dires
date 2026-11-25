@@ -29,7 +29,7 @@ font-family: KoineGreek, FreerFont;
 font-size: 0.9em;
 }
 
-/* Numéros de verset du décalogue : masqués par défaut, affichés avec la touche V */
+/* Numéros de verset du décalogue : affichés par défaut, masqués avec la touche V */
 .verse {
   display: none;
   font-family: inherit;
